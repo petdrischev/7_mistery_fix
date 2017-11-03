@@ -4,17 +4,20 @@
 
 # Как использовать
 
-Функция: get_roots(a, b, c): 
-            ...
-            return root1, root2
+Функция: 
+```python
+get_roots(a, b, c): 
+    ...
+    return root1, root2
+```
 Где a, b, c коэффициенты квадратного уравнения(a*x^2 + b*x + c = 0), а возвращаемые значения root1, root2 его корни.
 
 Пример вызова функции:
-
-from quadratic_equation import get_roots\n
-a, b, c = 1, 2, -3\n
+```python
+from quadratic_equation import get_roots
+a, b, c = 1, 2, -3
 get_roots(a, b, c)
-
+```
 # Как запустить
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
