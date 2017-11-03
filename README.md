@@ -11,8 +11,8 @@
 
 Пример вызова функции:
 
-from quadratic_equation import get_roots
-a, b, c = 1, 2, -3
+from quadratic_equation import get_roots\n
+a, b, c = 1, 2, -3\n
 get_roots(a, b, c)
 
 # Как запустить
